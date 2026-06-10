@@ -96,7 +96,7 @@ class _ProfileImage extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(150),
               child: Image.asset(
-                Assets.imagesAvatar,
+                Assets.images.avatarPixarJpg.path,
                 fit: BoxFit.cover,
                 height: 150,
                 width: 150,

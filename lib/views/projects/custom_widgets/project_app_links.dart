@@ -64,13 +64,13 @@ class AppLinkIcon extends StatelessWidget {
   String _getPlatformIcon(String platform) {
     switch (platform.toLowerCase()) {
       case 'android':
-        return Assets.iconsPlaystore;
+        return Assets.icons.playstore.path;
       case 'ios':
       case 'iphone':
       case 'apple':
-        return Assets.iconsAppStore;
+        return Assets.icons.appStore.path;
       default:
-        return Assets.iconsPlaystore;
+        return Assets.icons.playstore.path;
     }
   }
 }
